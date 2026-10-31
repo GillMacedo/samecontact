@@ -1,6 +1,6 @@
 # samecontact: find duplicate customers and contacts in CSV files
 
-[![CI](https://github.com/GillMacedo/samecontact/actions/workflows/ci.yml/badge.svg)](https://github.com/GillMacedo/samecontact/actions/workflows/ci.yml) [![MIT license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![npm](https://img.shields.io/npm/v/samecontact)](https://www.npmjs.com/package/samecontact) [![CI](https://github.com/GillMacedo/samecontact/actions/workflows/ci.yml/badge.svg)](https://github.com/GillMacedo/samecontact/actions/workflows/ci.yml) [![MIT license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **Clean up a CRM export, customer list or mailing list by finding rows that are the same person, even when the name, email or phone is written differently. For small businesses, sales teams and marketers.**
 
@@ -32,6 +32,8 @@ For other MCP clients:
   }
 }
 ```
+
+The npm install covers macOS and Linux. On Windows, use `go install` for now.
 
 Or build the binary with Go 1.27 or newer:
 
