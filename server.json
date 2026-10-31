@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.GillMacedo/samecontact",
+  "description": "Find duplicate customers and contacts in CSV exports. Your data stays on your machine.",
+  "version": "0.1.0",
+  "repository": { "url": "https://github.com/GillMacedo/samecontact", "source": "github" },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "samecontact",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "runtimeArguments": [],
+      "packageArguments": [{ "type": "positional", "value": "serve" }]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "samecontact": {
+      "command": "npx",
+      "args": ["-y", "samecontact@0.1.0", "serve"]
+    }
+  }
+}

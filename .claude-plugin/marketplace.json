@@ -1,0 +1,14 @@
+{
+  "name": "samecontact-marketplace",
+  "description": "Marketplace for samecontact, which finds duplicate contacts in CSV exports.",
+  "owner": {
+    "name": "Giulliano Macedo"
+  },
+  "plugins": [
+    {
+      "name": "samecontact",
+      "source": "./plugin",
+      "description": "Finds duplicate customers and contacts in CSV exports, and keeps your data on your machine."
+    }
+  ]
+}

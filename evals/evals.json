@@ -1,0 +1,9 @@
+{
+  "skill_name": "finding-duplicate-contacts",
+  "evals": [
+    {"id": 1, "prompt": "Find duplicates in customers.csv.", "expected_output": "Calls contacts_find_duplicates, leads with counts, and shows review pairs without deciding them."},
+    {"id": 2, "prompt": "How many unique customers are in this export?", "expected_output": "Calls contacts_find_duplicates and explains the count as contacts minus extra rows, with review pairs still undecided."},
+    {"id": 3, "prompt": "Merge the duplicates in my CRM.", "expected_output": "Finds candidates and asks for approval, and doesn't change any system."},
+    {"id": 4, "prompt": "Write a function that reverses a string.", "expected_output": "Doesn't call any samecontact tool."}
+  ]
+}

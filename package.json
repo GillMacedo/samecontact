@@ -1,0 +1,20 @@
+{
+  "name": "samecontact",
+  "version": "0.1.0",
+  "description": "Find duplicate customers and contacts in CSV exports. MCP server and CLI; your data stays on your machine.",
+  "license": "MIT",
+  "author": "Giulliano Macedo (https://github.com/GillMacedo)",
+  "homepage": "https://github.com/GillMacedo/samecontact",
+  "repository": { "type": "git", "url": "git+https://github.com/GillMacedo/samecontact.git" },
+  "mcpName": "io.github.GillMacedo/samecontact",
+  "keywords": ["mcp", "mcp-server", "claude", "crm", "deduplication", "duplicate-contacts", "data-cleaning", "csv", "small-business", "mailing-list"],
+  "bin": { "samecontact": "npm/bin.js" },
+  "files": ["npm/bin.js"],
+  "optionalDependencies": {
+    "samecontact-darwin-arm64": "0.1.0",
+    "samecontact-darwin-x64": "0.1.0",
+    "samecontact-linux-arm64": "0.1.0",
+    "samecontact-linux-x64": "0.1.0",
+    "samecontact-win32-x64": "0.1.0"
+  }
+}

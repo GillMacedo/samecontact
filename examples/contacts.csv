@@ -1,0 +1,16 @@
+Customer export (sample data),,,,
+Name,Email,Phone,Company,City
+Ana Silva,ana.silva@example.com,+1 (555) 010-0101,Example Supplies Ltd,Springfield
+"Silva, Ana",ANA.SILVA+news@example.com,,Example Supplies,Springfield
+Robert Jones,robert@example.org,555-010-0102,Sample Widgets,Shelbyville
+Bob Jones,,(555) 010-0102,Sample Widgets Inc,Shelbyville
+Maria Costa,maria@example.net,,Fictional Cafe,Ogden
+Maria Costa,m.costa@example.net,,Fictional Cafe,Ogden
+Sam Lee,info@example.com,,Demo Bakery,Ogden
+Priya Nair,info@example.com,,Demo Bakery,Ogden
+John Smith,jsmith@example.org,,Acme Test Co,Springfield
+John Smith,john.smith@example.net,,Mock Logistics,Portland
+Lena Fischer,shared@example.com,,Placeholder Gardens,Ogden
+Omar Haddad,shared@example.com,,Placeholder Gardens,Ogden
+Tom Reyes,tom@example.edu,555-010-0103,,Portland
+,,,,
